@@ -102,3 +102,75 @@ input:focus,
 button:focus {
   outline: none;
 }
+
+@media only screen and (max-width: 600px) {
+  .container{
+    width: 100%;
+    height: 100%;
+  }
+
+  .app-wrapper {
+    min-width: 90vw;
+    min-height: 100vh;
+  }
+
+  .header h1{
+    margin: 5px 0;
+  }
+
+  .task-input{
+    display: block;
+    width: 80vw;
+    padding:5px;
+    margin-right: 5px;
+    font-size: 15px;
+  }
+
+  .button-add{
+    display: block;
+    margin: 5px auto;
+    width: 50px;
+    padding: 5px;
+    font-size: 13px;
+  }
+
+  .list-item{
+    display: flex;
+    flex-direction: column;
+    margin: 5vh 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
+  .btns{
+    display: block;
+    margin: 8px auto;
+  }
+
+.button-complete,
+.button-delete,
+.button-edit {
+  font-size: 18px;
+  border-radius: 50%;
+  margin: 7px 0px;
+}
+
+.button-complete{
+  margin-right: 10px;
+}
+
+.button-edit{
+  margin-right: 10px;
+}
+
+.button-delete{
+}
+
+.list{
+  width: 220px;
+  font-size: 18px;
+  padding-left: 10px;
+  margin-right: 15px;
+}
+}

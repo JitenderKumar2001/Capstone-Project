@@ -34,7 +34,7 @@ function TodoList({todo, setTodo, setEditTodo}) {
          className={`list ${todo.completed ? "complete" : ""}`}
          onChange={(event) => event.preventDefault()} 
          />
-         <div>
+         <div className='btns'>
           <button className='button-complete task-button'
           onClick={() => handleComplete(todo)}>
             <i><AiOutlineCheck /></i></button>
